@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Angela portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+    </head>
+    <body>
+            <nav class="pages-nav">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="#" class="pop">portfolio &#9662;</a>
+                            <ul class="content">
+                                <li><a href="graphic_design.html">graphic design</a></li>
+                                <li><a href="Photography.html">Photography</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">contact</a></li>                  
+                     </ul>
+            </nav>
+        <div class="pages">   
+            <section class="white">
+                <div class="photos">
+                <h2>PORTFOLIO</h2>
+                <a href="Photography.html"><h2>PHOTOGRAPHY</h2></a>
+                    <a href="natural_light.html" class="word">
+                        <img src="images/portfolio/photography/natural_light/chichi.jpg" alt="Natural Light" class="image">
+                    </a>
+                    <a href="fashion.html" class="word">
+                        <img src="images/portfolio/photography/fashion/nina.jpg" alt="fashion" class="image">
+                    </a>
+                    <a href="studio.html" class="word">
+                        <img src="images/portfolio/photography/studio/flower.jpg" alt="studio" class="image">
+                    </a>
+                </div>
+            </section>
+        </div>
+        <script type="text/javascript">
+        jQuery(document).ready(function($){
+        $('.pop').hover(
+         function(){ $(this).addClass('content') }
+        )
+        });
+        </script>
+    </body> 
+</html>

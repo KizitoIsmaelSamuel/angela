@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Angela portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+    </head>
+    <body>
+            <nav class="pages-nav">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="#" class="pop">portfolio &#9662;</a>
+                            <ul class="content">
+                                <li><a href="graphic_design.html">graphic design</a></li>
+                                <li><a href="Photography.html">Photography</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">contact</a></li>                  
+                     </ul>
+            </nav>
+        <div class="pages">   
+            <section class="white">
+                 <h2>ABOUT ME</h2>
+                 <img src="images/about/about.jpg" alt="Angela" class="me">
+                 <div class="about">
+                 <p>
+                    The aim of this brand is to inspire young people to follow and stand for what they be-<br>
+                    lieve in. To send messages of positivity. To establish TISANKHE as much more than a<br>
+                    mere design brand but a VOICE! To constantly learn and grow in my craft. To keep<br>
+                    pushing the skill and quality of work produced by the brand to new levels. The vision of<br>
+                    this brand is to be a sharer of knowledge in an expressive society. Lastly, to do all things<br>
+                    with grace and in love.
+                 </p><br><br>
+                 <a href="images/about/Angela_Tisankhe_Phiri_CV.pdf" download>
+                    <img src="images/about/downloadcv.png" alt="Download CV" class="download">
+                </a>
+                </div>
+    
+            </section>
+        </div>
+        <script type="text/javascript">
+        jQuery(document).ready(function($){
+        $('.pop').hover(
+         function(){ $(this).addClass('content') }
+        )
+        });
+        </script>
+    </body> 
+</html>

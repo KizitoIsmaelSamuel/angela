@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Angela portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+    </head>
+    <body>
+            <nav class="pages-nav">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="#" class="pop">portfolio &#9662;</a>
+                            <ul class="content">
+                                <li><a href="graphic_design.html">graphic design</a></li>
+                                <li><a href="Photography.html">Photography</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">contact</a></li>                  
+                     </ul>
+            </nav>
+        <div class="pages">   
+            <section class="white">
+                <div class="photos">
+                <a href="Photography.html"><h2>PHOTOGRAPHY</h2></a>
+                <h2>STUDIO</h2>
+                    <a href="photoslide.html" class="word">
+                        <img src="images/portfolio/photography/studio/flower.jpg" alt="flower" class="image">
+                    </a>
+                    <a href="photoslide.html" class="word">
+                        <img src="images/portfolio/photography/studio/gugu.jpg" alt="gugu" class="image">
+                    </a>
+                    <a href="photoslide.html" class="word">
+                        <img src="images/portfolio/photography/studio/hema.jpg" alt="hema" class="image">
+                    </a>
+                    <a href="photoslide.html" class="word">
+                        <img src="images/portfolio/photography/studio/martin.jpg" alt="martin" class="image">
+                    </a>
+                    <a href="photoslide.html" class="word">
+                        <img src="images/portfolio/photography/studio/mbali.jpg" alt="mbali" class="image">
+                    </a>
+                </div>
+            </section>
+        </div>
+        <script type="text/javascript">
+        jQuery(document).ready(function($){
+        $('.pop').hover(
+         function(){ $(this).addClass('content') }
+        )
+        });
+        </script>
+    </body> 
+</html>
